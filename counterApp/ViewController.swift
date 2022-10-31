@@ -8,12 +8,21 @@
 import UIKit
 
 class ViewController: UIViewController {
+    @IBOutlet weak var button: UIButton!
+    @IBOutlet weak var label: UILabel!
+    private var score = 0
 
+// Значение счетчика равна 0
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        label.text = "« Значение счётчика: \(score) »"
+
     }
-
-
+// При нажатии кнопки увеличивается значение счетчика на еденицу.
+    @IBAction func pushButton(_ sender: Any) {
+        score += 1
+        label.text = "« Значение счётчика: \(score) »"
+    }
+    
 }
 
