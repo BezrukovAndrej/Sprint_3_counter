@@ -40,8 +40,8 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <connections>
-                        <outlet property="button" destination="Gfx-JJ-CqF" id="LC3-aQ-Ffa"/>
-                        <outlet property="label" destination="VRc-B5-K5q" id="CEq-Pg-Oiw"/>
+                        <outlet property="scoreButton" destination="Gfx-JJ-CqF" id="1gN-1e-eoN"/>
+                        <outlet property="scoreLabel" destination="VRc-B5-K5q" id="GTE-sQ-3Fa"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
